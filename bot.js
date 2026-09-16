@@ -10,9 +10,6 @@ function createBot() {
 
     bot.on('spawn', () => {
         console.log(`[NPC] El bot ha aparecido correctamente en el mapa.`);
-        // Si tu servidor No-Premium requiere contrase帽a, descomenta la l铆nea de abajo:
-        // setTimeout(() => bot.chat('/login erickJKN'), 4000);
-    });
 
     bot.on('login', () => {
         console.log(`[NPC] Conexi贸n establecida con el servidor de Minecraft.`);
